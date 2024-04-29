@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Aeonik";
+  src: url("/assets/fonts/fonnts.com-Aeonik_Black.ttf") format("truetype");
+  src: url("/assets/fonts/fonnts.com-Aeonik_Bold.ttf") format("truetype");
+  src: url("/assets/fonts/fonnts.com-Aeonik_Light.ttf") format("truetype");
+  src: url("/assets/fonts/fonnts.com-Aeonik_Regular.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f7f9fb;
+  font-size: 16px;
+  /* font-family: "Aeonik, sans-serif"; */
+}
+.logout:hover {
+  text-decoration-color: #f04438;
+}
+.naira-balance {
+  background: linear-gradient(90deg, #0052d4 0%, #4364f7 50%, #6fb1fc 100%);
+}
+.dollar-balance {
+  background: linear-gradient(90deg, #2b5876 0%, #4e4376 100%);
+}
